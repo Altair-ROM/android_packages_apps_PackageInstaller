@@ -614,7 +614,7 @@ public class PackageInstallerActivity extends OverlayTouchActivity implements On
         super.onResume();
 
         if (mOk != null) {
-            mOk.setEnabled(mOkCanInstall);
+            mOk.setEnabled(true);
         }
     }
 
